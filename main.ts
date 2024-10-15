@@ -1,6 +1,3 @@
-input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
-	
-})
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB_RGB)
 strip.setBrightness(50)
 basic.forever(function () {
